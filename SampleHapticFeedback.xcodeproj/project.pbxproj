@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */; };
-		53E64C3F2AE6ADEF007647DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C3E2AE6ADEF007647DE /* ContentView.swift */; };
 		53E64C412AE6ADF1007647DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C402AE6ADF1007647DE /* Assets.xcassets */; };
 		53E64C452AE6ADF1007647DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C442AE6ADF1007647DE /* Preview Assets.xcassets */; };
 		53E64C4F2AE6ADF1007647DE /* SampleHapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C4E2AE6ADF1007647DE /* SampleHapticFeedbackTests.swift */; };
 		53E64C592AE6ADF1007647DE /* SampleHapticFeedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C582AE6ADF1007647DE /* SampleHapticFeedbackUITests.swift */; };
 		53E64C5B2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C5A2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift */; };
 		53E64C692AE6AEE4007647DE /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = 53E64C682AE6AEE4007647DE /* SlideKit */; };
+		53E64C6C2AE6AF8E007647DE /* InitialSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C6B2AE6AF8E007647DE /* InitialSlide.swift */; };
+		53E64C6E2AE6B1DA007647DE /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C6D2AE6B1DA007647DE /* SlideConfiguration.swift */; };
+		53E64C702AE6B32D007647DE /* CustomHeaderStyleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C6F2AE6B32D007647DE /* CustomHeaderStyleSlide.swift */; };
+		53E64C732AE6BBCB007647DE /* SecondSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C722AE6BBCB007647DE /* SecondSlide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		53E64C392AE6ADEF007647DE /* SampleHapticFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleHapticFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHapticFeedbackApp.swift; sourceTree = "<group>"; };
-		53E64C3E2AE6ADEF007647DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53E64C402AE6ADF1007647DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53E64C422AE6ADF1007647DE /* SampleHapticFeedback.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleHapticFeedback.entitlements; sourceTree = "<group>"; };
 		53E64C442AE6ADF1007647DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +48,10 @@
 		53E64C542AE6ADF1007647DE /* SampleHapticFeedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleHapticFeedbackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64C582AE6ADF1007647DE /* SampleHapticFeedbackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHapticFeedbackUITests.swift; sourceTree = "<group>"; };
 		53E64C5A2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHapticFeedbackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53E64C6B2AE6AF8E007647DE /* InitialSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSlide.swift; sourceTree = "<group>"; };
+		53E64C6D2AE6B1DA007647DE /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
+		53E64C6F2AE6B32D007647DE /* CustomHeaderStyleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderStyleSlide.swift; sourceTree = "<group>"; };
+		53E64C722AE6BBCB007647DE /* SecondSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSlide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,9 @@
 		53E64C3B2AE6ADEF007647DE /* SampleHapticFeedback */ = {
 			isa = PBXGroup;
 			children = (
+				53E64C712AE6B719007647DE /* Slides */,
 				53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */,
-				53E64C3E2AE6ADEF007647DE /* ContentView.swift */,
+				53E64C6D2AE6B1DA007647DE /* SlideConfiguration.swift */,
 				53E64C402AE6ADF1007647DE /* Assets.xcassets */,
 				53E64C422AE6ADF1007647DE /* SampleHapticFeedback.entitlements */,
 				53E64C432AE6ADF1007647DE /* Preview Content */,
@@ -129,6 +136,16 @@
 				53E64C5A2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift */,
 			);
 			path = SampleHapticFeedbackUITests;
+			sourceTree = "<group>";
+		};
+		53E64C712AE6B719007647DE /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				53E64C6B2AE6AF8E007647DE /* InitialSlide.swift */,
+				53E64C722AE6BBCB007647DE /* SecondSlide.swift */,
+				53E64C6F2AE6B32D007647DE /* CustomHeaderStyleSlide.swift */,
+			);
+			path = Slides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E64C3F2AE6ADEF007647DE /* ContentView.swift in Sources */,
 				53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */,
+				53E64C702AE6B32D007647DE /* CustomHeaderStyleSlide.swift in Sources */,
+				53E64C6E2AE6B1DA007647DE /* SlideConfiguration.swift in Sources */,
+				53E64C6C2AE6AF8E007647DE /* InitialSlide.swift in Sources */,
+				53E64C732AE6BBCB007647DE /* SecondSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
