@@ -14,6 +14,7 @@
 		53E64C4F2AE6ADF1007647DE /* SampleHapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C4E2AE6ADF1007647DE /* SampleHapticFeedbackTests.swift */; };
 		53E64C592AE6ADF1007647DE /* SampleHapticFeedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C582AE6ADF1007647DE /* SampleHapticFeedbackUITests.swift */; };
 		53E64C5B2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C5A2AE6ADF1007647DE /* SampleHapticFeedbackUITestsLaunchTests.swift */; };
+		53E64C692AE6AEE4007647DE /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = 53E64C682AE6AEE4007647DE /* SlideKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E64C692AE6AEE4007647DE /* SlideKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = SampleHapticFeedback;
+			packageProductDependencies = (
+				53E64C682AE6AEE4007647DE /* SlideKit */,
+			);
 			productName = SampleHapticFeedback;
 			productReference = 53E64C392AE6ADEF007647DE /* SampleHapticFeedback.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 53E64C302AE6ADEF007647DE;
+			packageReferences = (
+				53E64C672AE6AEE4007647DE /* XCRemoteSwiftPackageReference "SlideKit" */,
+			);
 			productRefGroup = 53E64C3A2AE6ADEF007647DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -617,6 +625,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53E64C672AE6AEE4007647DE /* XCRemoteSwiftPackageReference "SlideKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtj0928/SlideKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53E64C682AE6AEE4007647DE /* SlideKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53E64C672AE6AEE4007647DE /* XCRemoteSwiftPackageReference "SlideKit" */;
+			productName = SlideKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53E64C312AE6ADEF007647DE /* Project object */;
 }
