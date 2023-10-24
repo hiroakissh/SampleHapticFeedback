@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 import SlideKit
 
 struct SixthSlide: Slide {
