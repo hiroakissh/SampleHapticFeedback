@@ -18,11 +18,10 @@ struct FifthSlide: Slide {
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("Apple公式ドキュメントを少しみてみよう") {
-            ContentView()
-        }
+            HeaderSlide("HIGを少しみてみよう") {
+                ContentView()
+            }
     }
-
     struct WebView: NSViewRepresentable {
 
         let loardUrl: URL
@@ -40,7 +39,7 @@ struct FifthSlide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loardUrl: URL(string: "https://developer.apple.com/documentation/corehaptics/")!)
+            WebView(loardUrl: URL(string: "https://developer.apple.com/design/human-interface-guidelines/playing-haptics")!)
         }
     }
 }

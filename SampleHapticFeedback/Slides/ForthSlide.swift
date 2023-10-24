@@ -18,28 +18,17 @@ struct ForthSlide: Slide, View {
     @Phase var phasedStateStore
 
     var body: some View {
-            HeaderSlide("HIGを少しみてみよう") {
-                ContentView()
+        HeaderSlide("HapticFeedbackってなんだろ？") {
+            Item("Please tap the right half of this window") {
+                Item("You can go to the next state")
+                Item("You can also use \"return\" or \"→\"")
             }
-    }
-    struct WebView: NSViewRepresentable {
-
-        let loardUrl: URL
-
-        func makeNSView(context: Context) -> WKWebView {
-            return WKWebView()
-        }
-
-        func updateNSView(_ uiView: WKWebView, context: Context) {
-            let request = URLRequest(url: loardUrl)
-            uiView.load(request)
-        }
-    }
-
-    struct ContentView: Slide {
-
-        var body: some View {
-            WebView(loardUrl: URL(string: "https://developer.apple.com/design/human-interface-guidelines/playing-haptics")!)
+            if phasedStateStore.when(.next) {
+                Item("Please tap the left half of this window") {
+                    Item("You can back the previous slide")
+                    Item("You can also use \"←\"")
+                }
+            }
         }
     }
 
