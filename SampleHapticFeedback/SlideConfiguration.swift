@@ -17,6 +17,7 @@ struct SlideConfiguration {
     let slideIndexController = SlideIndexController {
         InitialSlide()
         SecondSlide()
+        ThirdSlide()
         CustomHeaderStyleSlide()
     }
 

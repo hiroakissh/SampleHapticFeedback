@@ -17,32 +17,36 @@ struct SecondSlide: Slide {
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("How to use the slide") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
-            }
+        HeaderSlide("自己紹介") {
+            Text("名前：齋藤　広明")
+            Text("年齢：25 (最近アラサーになりました。よろしくお願いします 🙇)")
+            Text("配属案件")
+            Item("ニコス")
+                .padding(.leading)
+            Item("ZIPAIR")
+                .padding(.leading)
             if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
+                HStack {
+                    VStack {
+                        HStack {
+                            Text("最近ハマってること")
+                            Spacer()
+                        }
+                        HStack {
+                            Item("運動")
+                            Spacer()
+                        }
+                        HStack {
+                            Item("北千住の居酒屋(お気に入りは千住の永見)")
+                            Spacer()
+                        }
+                    }
+                    Spacer()
+                    Image(.sennzyuyaki)
                 }
             }
         }
-    }
-
-    var script: String {
-        switch phasedStateStore.current {
-        case .initial:
-            return """
-                    Let me show how to use the slide.
-                    You can go to the next state by tapping he right half of this window.
-                    """
-        case .next:
-            return """
-                    Also, you can go to the back state by tapping he left half of this window
-                    """
-        }
+        Image("")
     }
 }
 
