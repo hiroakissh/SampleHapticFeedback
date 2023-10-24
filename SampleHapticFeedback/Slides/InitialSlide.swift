@@ -10,10 +10,6 @@ import SlideKit
 
 struct InitialSlide: Slide {
 
-    enum SlidePhasedState: Int, PhasedState {
-        case initial, next
-    }
-
     @Phase var phasedStateStore
 
     var body: some View {
