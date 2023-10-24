@@ -18,6 +18,13 @@ struct SlideConfiguration {
         InitialSlide()
         SecondSlide()
         ThirdSlide()
+        ForthSlide()
+        FifthSlide()
+        SixthSlide()
+        SeventhSlide()
+        EighthSlide()
+        NinthSlide()
+        TenthSlide()
         CustomHeaderStyleSlide()
     }
 

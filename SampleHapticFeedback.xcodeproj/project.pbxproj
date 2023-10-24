@@ -22,6 +22,11 @@
 		53E64C772AE80809007647DE /* ForthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C762AE80809007647DE /* ForthSlide.swift */; };
 		53E64C792AE80838007647DE /* FifthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C782AE80838007647DE /* FifthSlide.swift */; };
 		53E64C7B2AE80865007647DE /* BaseSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C7A2AE80865007647DE /* BaseSlide.swift */; };
+		53E64C7D2AE8149B007647DE /* SixthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C7C2AE8149B007647DE /* SixthSlide.swift */; };
+		53E64C7F2AE814A9007647DE /* SeventhSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C7E2AE814A9007647DE /* SeventhSlide.swift */; };
+		53E64C812AE814B5007647DE /* EighthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C802AE814B5007647DE /* EighthSlide.swift */; };
+		53E64C832AE814C4007647DE /* NinthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C822AE814C4007647DE /* NinthSlide.swift */; };
+		53E64C852AE814CE007647DE /* TenthSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C842AE814CE007647DE /* TenthSlide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		53E64C762AE80809007647DE /* ForthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthSlide.swift; sourceTree = "<group>"; };
 		53E64C782AE80838007647DE /* FifthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthSlide.swift; sourceTree = "<group>"; };
 		53E64C7A2AE80865007647DE /* BaseSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSlide.swift; sourceTree = "<group>"; };
+		53E64C7C2AE8149B007647DE /* SixthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthSlide.swift; sourceTree = "<group>"; };
+		53E64C7E2AE814A9007647DE /* SeventhSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhSlide.swift; sourceTree = "<group>"; };
+		53E64C802AE814B5007647DE /* EighthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthSlide.swift; sourceTree = "<group>"; };
+		53E64C822AE814C4007647DE /* NinthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthSlide.swift; sourceTree = "<group>"; };
+		53E64C842AE814CE007647DE /* TenthSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthSlide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,11 @@
 				53E64C742AE80200007647DE /* ThirdSlide.swift */,
 				53E64C762AE80809007647DE /* ForthSlide.swift */,
 				53E64C782AE80838007647DE /* FifthSlide.swift */,
+				53E64C7C2AE8149B007647DE /* SixthSlide.swift */,
+				53E64C7E2AE814A9007647DE /* SeventhSlide.swift */,
+				53E64C802AE814B5007647DE /* EighthSlide.swift */,
+				53E64C822AE814C4007647DE /* NinthSlide.swift */,
+				53E64C842AE814CE007647DE /* TenthSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -296,8 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E64C832AE814C4007647DE /* NinthSlide.swift in Sources */,
+				53E64C7F2AE814A9007647DE /* SeventhSlide.swift in Sources */,
 				53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */,
+				53E64C812AE814B5007647DE /* EighthSlide.swift in Sources */,
 				53E64C702AE6B32D007647DE /* CustomHeaderStyleSlide.swift in Sources */,
+				53E64C7D2AE8149B007647DE /* SixthSlide.swift in Sources */,
 				53E64C7B2AE80865007647DE /* BaseSlide.swift in Sources */,
 				53E64C6E2AE6B1DA007647DE /* SlideConfiguration.swift in Sources */,
 				53E64C6C2AE6AF8E007647DE /* InitialSlide.swift in Sources */,
@@ -305,6 +324,7 @@
 				53E64C792AE80838007647DE /* FifthSlide.swift in Sources */,
 				53E64C752AE80200007647DE /* ThirdSlide.swift in Sources */,
 				53E64C772AE80809007647DE /* ForthSlide.swift in Sources */,
+				53E64C852AE814CE007647DE /* TenthSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
