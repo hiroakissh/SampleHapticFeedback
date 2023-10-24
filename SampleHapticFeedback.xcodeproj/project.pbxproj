@@ -115,6 +115,7 @@
 				53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */,
 				53E64C6D2AE6B1DA007647DE /* SlideConfiguration.swift */,
 				53E64C7A2AE80865007647DE /* BaseSlide.swift */,
+				53E64C6F2AE6B32D007647DE /* CustomHeaderStyleSlide.swift */,
 				53E64C402AE6ADF1007647DE /* Assets.xcassets */,
 				53E64C422AE6ADF1007647DE /* SampleHapticFeedback.entitlements */,
 				53E64C432AE6ADF1007647DE /* Preview Content */,
@@ -155,7 +156,6 @@
 				53E64C742AE80200007647DE /* ThirdSlide.swift */,
 				53E64C762AE80809007647DE /* ForthSlide.swift */,
 				53E64C782AE80838007647DE /* FifthSlide.swift */,
-				53E64C6F2AE6B32D007647DE /* CustomHeaderStyleSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
