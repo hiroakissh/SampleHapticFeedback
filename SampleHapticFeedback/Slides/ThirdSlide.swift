@@ -11,22 +11,17 @@ import SlideKit
 struct ThirdSlide: Slide {
 
     enum SlidePhasedState: Int, PhasedState {
-        case initial, next
+        case initial, second
     }
 
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("自己紹介") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
-            }
-            if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
-                }
+        HeaderSlide("今日私が話すこと") { }
+        if phasedStateStore.when(.second) {
+            VStack(alignment: .center) {
+                Text("HapticFeedback ~ 触覚フィードバック ~")
+                    .font(.system(size: 90))
             }
         }
     }
