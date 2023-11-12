@@ -20,6 +20,7 @@ struct SlideConfiguration {
         ThirdSlide()
         ForthSlide()
         FifthSlide()
+        Fifth_1Slide()
         SixthSlide()
         SeventhSlide()
         EighthSlide()

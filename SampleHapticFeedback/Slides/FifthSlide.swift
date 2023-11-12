@@ -39,7 +39,7 @@ struct FifthSlide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loardUrl: URL(string: "https://developer.apple.com/design/human-interface-guidelines/playing-haptics")!)
+            WebView(loardUrl: URL(string: "https://developer.apple.com/jp/design/human-interface-guidelines/playing-haptics")!)
         }
     }
 }

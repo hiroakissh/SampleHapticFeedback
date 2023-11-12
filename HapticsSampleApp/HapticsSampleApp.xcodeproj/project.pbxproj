@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53C606692AFF7F45005A6441 /* HapticAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C606682AFF7F45005A6441 /* HapticAmountView.swift */; };
+		53C6066B2AFF808B005A6441 /* SliderHapticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6066A2AFF808B005A6441 /* SliderHapticView.swift */; };
 		53E64C932AF4F3BB007647DE /* HapticsSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C922AF4F3BB007647DE /* HapticsSampleAppApp.swift */; };
 		53E64C952AF4F3BB007647DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C942AF4F3BB007647DE /* ContentView.swift */; };
 		53E64C972AF4F3C4007647DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C962AF4F3C4007647DE /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 		53E64CA52AF4F3C4007647DE /* HapticsSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CA42AF4F3C4007647DE /* HapticsSampleAppTests.swift */; };
 		53E64CAF2AF4F3C4007647DE /* HapticsSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CAE2AF4F3C4007647DE /* HapticsSampleAppUITests.swift */; };
 		53E64CB12AF4F3C4007647DE /* HapticsSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CB02AF4F3C4007647DE /* HapticsSampleAppUITestsLaunchTests.swift */; };
+		53E64CBE2AFF61B5007647DE /* CustomHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CBD2AFF61B5007647DE /* CustomHapticsView.swift */; };
+		53E64CC02AFF652B007647DE /* NewBasicHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CBF2AFF652B007647DE /* NewBasicHapticsView.swift */; };
+		53E64CC22AFF6FE3007647DE /* BasicHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64CC12AFF6FE3007647DE /* BasicHapticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53C606682AFF7F45005A6441 /* HapticAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticAmountView.swift; sourceTree = "<group>"; };
+		53C6066A2AFF808B005A6441 /* SliderHapticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderHapticView.swift; sourceTree = "<group>"; };
 		53E64C8F2AF4F3BB007647DE /* HapticsSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticsSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64C922AF4F3BB007647DE /* HapticsSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsSampleAppApp.swift; sourceTree = "<group>"; };
 		53E64C942AF4F3BB007647DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		53E64CAA2AF4F3C4007647DE /* HapticsSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticsSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64CAE2AF4F3C4007647DE /* HapticsSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsSampleAppUITests.swift; sourceTree = "<group>"; };
 		53E64CB02AF4F3C4007647DE /* HapticsSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53E64CBD2AFF61B5007647DE /* CustomHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHapticsView.swift; sourceTree = "<group>"; };
+		53E64CBF2AFF652B007647DE /* NewBasicHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBasicHapticsView.swift; sourceTree = "<group>"; };
+		53E64CC12AFF6FE3007647DE /* BasicHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHapticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				53E64C922AF4F3BB007647DE /* HapticsSampleAppApp.swift */,
 				53E64C942AF4F3BB007647DE /* ContentView.swift */,
+				53E64CBD2AFF61B5007647DE /* CustomHapticsView.swift */,
+				53E64CC12AFF6FE3007647DE /* BasicHapticsView.swift */,
+				53E64CBF2AFF652B007647DE /* NewBasicHapticsView.swift */,
+				53C606682AFF7F45005A6441 /* HapticAmountView.swift */,
+				53C6066A2AFF808B005A6441 /* SliderHapticView.swift */,
 				53E64C962AF4F3C4007647DE /* Assets.xcassets */,
 				53E64C982AF4F3C4007647DE /* HapticsSampleApp.entitlements */,
 				53E64C992AF4F3C4007647DE /* Preview Content */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E64CC02AFF652B007647DE /* NewBasicHapticsView.swift in Sources */,
+				53C6066B2AFF808B005A6441 /* SliderHapticView.swift in Sources */,
+				53E64CC22AFF6FE3007647DE /* BasicHapticsView.swift in Sources */,
 				53E64C952AF4F3BB007647DE /* ContentView.swift in Sources */,
 				53E64C932AF4F3BB007647DE /* HapticsSampleAppApp.swift in Sources */,
+				53E64CBE2AFF61B5007647DE /* CustomHapticsView.swift in Sources */,
+				53C606692AFF7F45005A6441 /* HapticAmountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
