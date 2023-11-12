@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53C6066D2B012321005A6441 /* Fifth-1Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6066C2B012321005A6441 /* Fifth-1Slide.swift */; };
+		53C6066F2B012B06005A6441 /* Sixth-1Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */; };
 		53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */; };
 		53E64C412AE6ADF1007647DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C402AE6ADF1007647DE /* Assets.xcassets */; };
 		53E64C452AE6ADF1007647DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C442AE6ADF1007647DE /* Preview Assets.xcassets */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		53C6066C2B012321005A6441 /* Fifth-1Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fifth-1Slide.swift"; sourceTree = "<group>"; };
+		53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sixth-1Slide.swift"; sourceTree = "<group>"; };
 		53E64C392AE6ADEF007647DE /* SampleHapticFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleHapticFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHapticFeedbackApp.swift; sourceTree = "<group>"; };
 		53E64C402AE6ADF1007647DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				53E64C782AE80838007647DE /* FifthSlide.swift */,
 				53C6066C2B012321005A6441 /* Fifth-1Slide.swift */,
 				53E64C7C2AE8149B007647DE /* SixthSlide.swift */,
+				53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */,
 				53E64C7E2AE814A9007647DE /* SeventhSlide.swift */,
 				53E64C802AE814B5007647DE /* EighthSlide.swift */,
 				53E64C822AE814C4007647DE /* NinthSlide.swift */,
@@ -326,6 +329,7 @@
 				53E64C6C2AE6AF8E007647DE /* InitialSlide.swift in Sources */,
 				53E64C732AE6BBCB007647DE /* SecondSlide.swift in Sources */,
 				53E64C792AE80838007647DE /* FifthSlide.swift in Sources */,
+				53C6066F2B012B06005A6441 /* Sixth-1Slide.swift in Sources */,
 				53E64C752AE80200007647DE /* ThirdSlide.swift in Sources */,
 				53E64C772AE80809007647DE /* ForthSlide.swift in Sources */,
 				53E64C852AE814CE007647DE /* TenthSlide.swift in Sources */,
