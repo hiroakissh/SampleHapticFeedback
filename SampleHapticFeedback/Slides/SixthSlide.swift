@@ -18,7 +18,7 @@ struct SixthSlide: Slide {
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("Apple公式ドキュメントを少しみてみよう") {
+        HeaderSlide("Apple公式ドキュメントを少しみてみよう UIKit編") {
             ContentView()
         }
     }
