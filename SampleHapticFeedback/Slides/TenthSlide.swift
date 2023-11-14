@@ -17,17 +17,11 @@ struct TenthSlide: Slide {
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("自己紹介") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
-            }
-            if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
-                }
-            }
+        HeaderSlide("謝辞") {
+            Text("渡部さん入社前から大変お世話になりました🙇\n新天地でのご活躍をお祈りします🙏")
+                .frame(maxWidth: .infinity,maxHeight: .infinity , alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
+                .font(.system(size: 90))
         }
     }
 }

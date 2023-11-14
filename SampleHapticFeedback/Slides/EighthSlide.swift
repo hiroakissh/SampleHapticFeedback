@@ -41,7 +41,7 @@ struct EighthSlide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loadUrl: URL(string: "https://developer.apple.com/jp/design/human-interface-guidelines/playing-haptic")!)
+            WebView(loadUrl: URL(string: "https://developer.apple.com/jp/design/human-interface-guidelines/playing-haptics")!)
         }
     }
 }
