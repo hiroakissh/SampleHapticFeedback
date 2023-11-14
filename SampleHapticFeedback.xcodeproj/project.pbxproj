@@ -10,6 +10,7 @@
 		53C6066D2B012321005A6441 /* Fifth-1Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6066C2B012321005A6441 /* Fifth-1Slide.swift */; };
 		53C6066F2B012B06005A6441 /* Sixth-1Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */; };
 		53C606712B03B66D005A6441 /* Seventh-1Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C606702B03B66D005A6441 /* Seventh-1Slide.swift */; };
+		53C606732B03B813005A6441 /* Sixth-2Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C606722B03B813005A6441 /* Sixth-2Slide.swift */; };
 		53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */; };
 		53E64C412AE6ADF1007647DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C402AE6ADF1007647DE /* Assets.xcassets */; };
 		53E64C452AE6ADF1007647DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C442AE6ADF1007647DE /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		53C6066C2B012321005A6441 /* Fifth-1Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fifth-1Slide.swift"; sourceTree = "<group>"; };
 		53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sixth-1Slide.swift"; sourceTree = "<group>"; };
 		53C606702B03B66D005A6441 /* Seventh-1Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seventh-1Slide.swift"; sourceTree = "<group>"; };
+		53C606722B03B813005A6441 /* Sixth-2Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sixth-2Slide.swift"; sourceTree = "<group>"; };
 		53E64C392AE6ADEF007647DE /* SampleHapticFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleHapticFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E64C3C2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHapticFeedbackApp.swift; sourceTree = "<group>"; };
 		53E64C402AE6ADF1007647DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				53C6066C2B012321005A6441 /* Fifth-1Slide.swift */,
 				53E64C7C2AE8149B007647DE /* SixthSlide.swift */,
 				53C6066E2B012B06005A6441 /* Sixth-1Slide.swift */,
+				53C606722B03B813005A6441 /* Sixth-2Slide.swift */,
 				53E64C7E2AE814A9007647DE /* SeventhSlide.swift */,
 				53C606702B03B66D005A6441 /* Seventh-1Slide.swift */,
 				53E64C802AE814B5007647DE /* EighthSlide.swift */,
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C606712B03B66D005A6441 /* Seventh-1Slide.swift in Sources */,
+				53C606732B03B813005A6441 /* Sixth-2Slide.swift in Sources */,
 				53E64C832AE814C4007647DE /* NinthSlide.swift in Sources */,
 				53E64C7F2AE814A9007647DE /* SeventhSlide.swift in Sources */,
 				53E64C3D2AE6ADEF007647DE /* SampleHapticFeedbackApp.swift in Sources */,
