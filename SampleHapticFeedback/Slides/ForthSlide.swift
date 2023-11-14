@@ -19,14 +19,15 @@ struct ForthSlide: Slide, View {
 
     var body: some View {
         HeaderSlide("HapticFeedbackってなんだろ？") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
+            Item("触覚フィードバックとは") {
+                Item("デバイスやシステムからユーザの手や指に対して、振動や圧力などの物理的な刺激を与えることで、操作の結果や状態を伝える技術のことです")
             }
             if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
+                Item("主に使用されている例") {
+                    Item("iPhoneの純正機能") {
+                    Item("Apple Watch")
+                    Item("Air Pods")
+                    Item("Mac")
                 }
             }
         }
