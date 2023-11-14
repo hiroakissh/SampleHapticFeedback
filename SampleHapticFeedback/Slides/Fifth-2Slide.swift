@@ -24,14 +24,14 @@ struct Fifth_2Slide: Slide {
     }
     struct WebView: NSViewRepresentable {
 
-        let loardUrl: URL
+        let loadUrl: URL
 
         func makeNSView(context: Context) -> WKWebView {
             return WKWebView()
         }
 
         func updateNSView(_ uiView: WKWebView, context: Context) {
-            let request = URLRequest(url: loardUrl)
+            let request = URLRequest(url: loadUrl)
             uiView.load(request)
         }
     }
@@ -39,7 +39,7 @@ struct Fifth_2Slide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loardUrl: URL(string: "https://developer.android.com/develop/ui/views/haptics/haptics-principles?hl=ja")!)
+            WebView(loadUrl: URL(string: "https://developer.android.com/develop/ui/views/haptics/haptics-principles?hl=ja")!)
         }
     }
 }
