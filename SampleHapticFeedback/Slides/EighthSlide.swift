@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 import SlideKit
 
 struct EighthSlide: Slide {
@@ -17,17 +18,30 @@ struct EighthSlide: Slide {
     @Phase var phasedStateStore
 
     var body: some View {
-        HeaderSlide("自己紹介") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
-            }
-            if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
-                }
-            }
+        HeaderSlide("実際にアプリ作成してきました (iOS)") {
+            Item("林くんに触っていただきたいです🙇")
+            ContentView()
+        }
+    }
+
+    struct WebView: NSViewRepresentable {
+
+        let loadUrl: URL
+
+        func makeNSView(context: Context) -> WKWebView {
+            return WKWebView()
+        }
+
+        func updateNSView(_ uiView: WKWebView, context: Context) {
+            let request = URLRequest(url: loadUrl)
+            uiView.load(request)
+        }
+    }
+
+    struct ContentView: Slide {
+
+        var body: some View {
+            WebView(loadUrl: URL(string: "https://developer.apple.com/jp/design/human-interface-guidelines/playing-haptic")!)
         }
     }
 }
