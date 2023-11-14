@@ -40,7 +40,7 @@ struct SixthSlide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loadUrl: URL(string: "https://developer.apple.com/documentation/corehaptics/")!)
+            WebView(loadUrl: URL(string: "https://developer.apple.com/documentation/uikit/animation_and_haptics")!)
         }
     }
 }

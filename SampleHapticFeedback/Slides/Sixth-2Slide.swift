@@ -12,7 +12,7 @@ import SlideKit
 struct Sixth_2Slide: View {
 
     var body: some View {
-        HeaderSlide("Apple公式ドキュメントを少しみてみよう SwiftUI編") {
+        HeaderSlide("Apple公式ドキュメントを少しみてみよう カスタムしたい方向け") {
             ContentView()
         }
     }
