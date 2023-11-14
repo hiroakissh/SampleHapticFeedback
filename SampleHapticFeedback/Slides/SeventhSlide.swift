@@ -34,7 +34,7 @@ struct SeventhSlide: Slide {
     struct ContentView: Slide {
 
         var body: some View {
-            WebView(loadUrl: URL(string: "https://developer.apple.com/documentation/swiftui/controls-and-indicators")!)
+            WebView(loadUrl: URL(string: "https://developer.android.com/develop/ui/views/haptics/haptic-feedback?hl=ja")!)
         }
     }
 }
