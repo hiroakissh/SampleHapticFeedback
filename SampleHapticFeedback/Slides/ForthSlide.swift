@@ -24,7 +24,7 @@ struct ForthSlide: Slide, View {
             }
             if phasedStateStore.when(.next) {
                 Item("主に使用されている例") {
-                    Item("iPhoneの純正機能") {
+                    Item("iPhone")
                     Item("Apple Watch")
                     Item("Air Pods")
                     Item("Mac")
