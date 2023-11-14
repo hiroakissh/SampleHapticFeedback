@@ -21,6 +21,7 @@ struct SlideConfiguration {
         ForthSlide()
         FifthSlide()
         Fifth_1Slide()
+        Fifth_2Slide()
         SixthSlide()
         Sixth_1Slide()
         SeventhSlide()

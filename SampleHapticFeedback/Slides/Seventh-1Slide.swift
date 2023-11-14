@@ -6,27 +6,35 @@
 //
 
 import SwiftUI
+import WebKit
 import SlideKit
 
 struct Seventh_1Slide: Slide {
-    enum SlidePhasedState: Int, PhasedState {
-        case initial, next
+ 
+    var body: some View {
+        HeaderSlide("Android公式チュートリアルを少しみてみよう") {
+            ContentView()
+        }
     }
 
-    @Phase var phasedStateStore
+    struct WebView: NSViewRepresentable {
 
-    var body: some View {
-        HeaderSlide("自己紹介") {
-            Item("Please tap the right half of this window") {
-                Item("You can go to the next state")
-                Item("You can also use \"return\" or \"→\"")
-            }
-            if phasedStateStore.when(.next) {
-                Item("Please tap the left half of this window") {
-                    Item("You can back the previous slide")
-                    Item("You can also use \"←\"")
-                }
-            }
+        let loadUrl: URL
+
+        func makeNSView(context: Context) -> WKWebView {
+            return WKWebView()
+        }
+
+        func updateNSView(_ uiView: WKWebView, context: Context) {
+            let request = URLRequest(url: loadUrl)
+            uiView.load(request)
+        }
+    }
+
+    struct ContentView: Slide {
+
+        var body: some View {
+            WebView(loadUrl: URL(string: "https://developer.apple.com/documentation/swiftui/controls-and-indicators")!)
         }
     }
 }
